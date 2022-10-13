@@ -1,22 +1,15 @@
-﻿NormalizedObjects.obj : error LNK2005: "void __cdecl INIT_SHADER(void)" (?INIT_SHADER@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "void __cdecl INIT_VAO(void)" (?INIT_VAO@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "void __cdecl costruisci_cuore(float,float,float,float,struct Figure *)" (?costruisci_cuore@@YAXMMMMPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "void __cdecl costruisci_farfalla(float,float,float,float,struct Figure *)" (?costruisci_farfalla@@YAXMMMMPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "void __cdecl crea_VAO_Vector(struct Figure *)" (?crea_VAO_Vector@@YAXPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "void __cdecl drawScene(void)" (?drawScene@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: main già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "class std::vector<struct Figure,class std::allocator<struct Figure> > Scena" (?Scena@@3V?$vector@UFigure@@V?$allocator@UFigure@@@std@@@std@@A) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "struct Figure Farf" (?Farf@@3UFigure@@A) già definito in MovingElements.obj
-NormalizedObjects.obj : error LNK2005: "struct Figure Cuore" (?Cuore@@3UFigure@@A) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl INIT_SHADER(void)" (?INIT_SHADER@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl INIT_VAO(void)" (?INIT_VAO@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl costruisci_cuore(float,float,float,float,struct Figure *)" (?costruisci_cuore@@YAXMMMMPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl costruisci_farfalla(float,float,float,float,struct Figure *)" (?costruisci_farfalla@@YAXMMMMPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl crea_VAO_Vector(struct Figure *)" (?crea_VAO_Vector@@YAXPEAUFigure@@@Z) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "void __cdecl drawScene(void)" (?drawScene@@YAXXZ) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: main già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "struct glm::mat<4,4,float,0> Projection" (?Projection@@3U?$mat@$03$03M$0A@@glm@@A) già definito in NormalizedObjects.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "class std::vector<struct Figure,class std::allocator<struct Figure> > Scena" (?Scena@@3V?$vector@UFigure@@V?$allocator@UFigure@@@std@@@std@@A) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "struct Figure Farf" (?Farf@@3UFigure@@A) già definito in MovingElements.obj
-NormalizedObjectsInMotion.obj : error LNK2005: "struct Figure Cuore" (?Cuore@@3UFigure@@A) già definito in MovingElements.obj
-C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\x64\Debug\MovingElements.exe : fatal error LNK1169: rilevato uno o più simboli definiti più volte
+﻿  Palla.cpp
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(29,13): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(86,14): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(108,36): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(119,47): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(126,14): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(155,35): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(161,14): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(193,33): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(205,18): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(220,45): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(242,35): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(262,35): warning C4267: '=': conversione da 'size_t' a 'int'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\MovingElements\Palla.cpp(409,21): warning C4244: 'inizializzazione': conversione da 'double' a 'float'. Possibile perdita di dati.
+  MovingElements.vcxproj -> C:\Users\andre\Desktop\ComputerGraphicsLab\03MovingElements\MovingElements\x64\Debug\MovingElements.exe

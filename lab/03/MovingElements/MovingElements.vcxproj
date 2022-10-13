@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Palla.cpp" />
     <ClCompile Include="ShaderMaker.cpp" />
   </ItemGroup>
   <ItemGroup>
