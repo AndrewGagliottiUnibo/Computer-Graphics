@@ -131,6 +131,8 @@
     <ClCompile Include="ShaderMaker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreateGeometries.h" />
+    <ClInclude Include="EventHandler.h" />
     <ClInclude Include="Lib.h" />
     <ClInclude Include="ShaderMaker.h" />
   </ItemGroup>

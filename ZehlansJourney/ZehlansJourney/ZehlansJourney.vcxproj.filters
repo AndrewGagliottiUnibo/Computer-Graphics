@@ -29,6 +29,12 @@
     <ClInclude Include="ShaderMaker.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
+    <ClInclude Include="CreateGeometries.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
