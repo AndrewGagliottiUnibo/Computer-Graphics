@@ -271,6 +271,7 @@ void keyboardPressedEvent(unsigned char key, int x, int y)
 	per poterlo traslare, ruotare scalare.*/
 	case TRASLATING:
 		// si passa angle 0 e scale factor =1,
+		// si moltiplica perché è un vec3, agisci solo su quella riga.
 		modifyModelMatrix(asse * amount, asse, 0.0f, 1.0f);
 		break;
 	case ROTATING:
