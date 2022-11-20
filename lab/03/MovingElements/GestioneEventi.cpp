@@ -11,8 +11,8 @@ extern float posx ; //coordinate sul piano della posizione iniziale della palla
 extern float  posy;
 extern int  width;
 extern float angolo;
-void keyboardPressedEvent(unsigned char key, int x, int y)
-{
+
+void keyboardPressedEvent(unsigned char key, int x, int y) {
 	switch (key)
 	{
 	case 'a':
@@ -32,8 +32,7 @@ void keyboardPressedEvent(unsigned char key, int x, int y)
 	}
 }
 
-void keyboardReleasedEvent(unsigned char key, int x, int y)
-{
+void keyboardReleasedEvent(unsigned char key, int x, int y) {
 	switch (key)
 	{
 	case 'a':
@@ -48,8 +47,8 @@ void keyboardReleasedEvent(unsigned char key, int x, int y)
 		break;
 	}
 }
-void update(int a)
-{
+
+void update(int a) {
 	bool moving = false;
 	//Movimento della palla in orizzontale
 
@@ -86,14 +85,10 @@ void update(int a)
 	}
 
 	//Aggioramento della posizione in x della pallina, che regola il movimento orizzontale
-
 	posx += dx;
-
-
 
 	//Se la pallina assume una posizione in x minore di 0 o maggiore di width dello schermo
 	//facciamo rimbalzare la pallina ai bordi dello schermo
-
 	if (posx < 0) {
 		posx = 0;
 		dx = -dx * 0.8;
@@ -105,30 +100,23 @@ void update(int a)
 	}
 
 	// Gestione del rimbalzo e quindi dell'altezza da terra
-
 	//Rimbalzo
 	dy -= delta;
-
 	distacco_da_terra -= dy;
-	//printf("dy %f  Distacca da terra %f \n", dy, distacco_da_terra);
+	printf("dy %f  Distacca da terra %f \n", dy, distacco_da_terra);
 	 
    if (distacco_da_terra > 30)
    {
 	   distacco_da_terra = 30;
 	   dy = 30;   //Una volta giunta a terra la pallina ottiene un impulso positivo che la ritornare su
    }
-
-
-
 	
 	glutPostRedisplay();
 	glutTimerFunc(24, update, 0);
 }
 
 
-void update_pala(int a)
-{
-	
+void update_pala(int a) {
 	angolo+=5;
 	glutPostRedisplay();
 	glutTimerFunc(24, update_pala, 0);

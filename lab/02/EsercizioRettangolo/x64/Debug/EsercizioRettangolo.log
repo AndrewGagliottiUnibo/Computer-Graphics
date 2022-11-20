@@ -1,16 +1,19 @@
 ﻿  EventsMoon.cpp
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(6,31): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(11,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(12,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(13,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(78,33): warning C4305: 'argomento': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(120,26): warning C4305: '=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(121,26): warning C4305: '=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(122,26): warning C4305: '=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(126,17): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(130,28): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(133,27): warning C4305: '=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(146,11): warning C4305: '+=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(154,11): warning C4305: '+=': troncamento da 'double' a 'float'
-C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(159,11): warning C4305: '+=': troncamento da 'double' a 'float'
-  EsercizioRettangolo.vcxproj -> C:\Users\andre\Desktop\ComputerGraphicsLab\EsercizioRettangolo\x64\Debug\EsercizioRettangolo.exe
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(6,31): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(11,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(12,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(13,14): warning C4305: 'inizializzazione': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(39,36): warning C4042: 'key': classe di archiviazione errata
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(80,33): warning C4305: 'argomento': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(122,26): warning C4305: '=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(123,26): warning C4305: '=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(124,26): warning C4305: '=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(128,17): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(132,28): warning C4244: '=': conversione da 'double' a 'float'. Possibile perdita di dati.
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(135,27): warning C4305: '=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(142,36): warning C4042: 'key': classe di archiviazione errata
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(148,11): warning C4305: '+=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(161,11): warning C4305: '+=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(169,11): warning C4305: '+=': troncamento da 'double' a 'float'
+C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\EsercizioRettangolo\EventsMoon.cpp(174,11): warning C4305: '+=': troncamento da 'double' a 'float'
+  EsercizioRettangolo.vcxproj -> C:\Users\andre\Desktop\ComputerGraphicsLab\02EsercizioRettangolo\EsercizioRettangolo\x64\Debug\EsercizioRettangolo.exe

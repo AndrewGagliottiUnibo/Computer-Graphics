@@ -36,6 +36,7 @@ void INIT_SHADER(void);
 void INIT_VAO(void);
 void drawScene(void);
 void buildMoon(float cx, float cy, float radius, Points* moon);
+void keyboard(static unsigned char key, int x, int y);
 void mouse(int button, int state, int x, int y);
 void update(int value);
 
@@ -54,6 +55,7 @@ int main(int argc, char* argv[])
 	INIT_SHADER();
 	INIT_VAO();
 
+	glutKeyboardFunc(keyboard);
 	/*
 		Gestisco l'oziosità della grafica con un evento idle.
 	*/
@@ -134,6 +136,19 @@ void buildMoon(float cx, float cy, float radius, Points* moon) {
 		moon[components].g = 0.5;
 		moon[components].b = 1.0;
 		moon[components].a = 1.0;
+	}
+}
+
+void keyboard(static unsigned char key, int x, int y) {
+	if (key == 'b') {
+		// Cambio il colore dello sfondo
+		if (g > 1.0) {
+			g = 0.0;
+		}
+		g += 0.1;
+
+		// Forza il ridisegno della figura con i parametri aggiornati.
+		glutPostRedisplay();
 	}
 }
 

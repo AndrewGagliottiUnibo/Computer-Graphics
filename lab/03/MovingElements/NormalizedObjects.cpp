@@ -85,8 +85,6 @@ void costruisci_farfalla(float cx, float cy, float raggiox, float raggioy, Figur
 		t = (float)i * stepA;
 		fig->vertices.push_back(vec3(cx + raggiox * (sin(t) * (exp(cos(t)) - 2 * cos(4 * t)) + pow(sin(t / 12), 5)) / 4, cy + raggioy * (cos(t) * (exp(cos(t)) - 2 * cos(4 * t)) + pow(sin(t / 12), 5)) / 4, 0.0));
 		fig->colors.push_back(vec4(1.0, 0.0, 0.0, 0.0));
-
-
 	}
 	fig->nv = fig->vertices.size();
 }

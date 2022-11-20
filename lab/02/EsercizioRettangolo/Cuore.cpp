@@ -25,7 +25,7 @@ typedef struct {
 	float a;
 } Points;
 
-int nPoints = 100;
+int nPoints = 10;
 int nVertices = nPoints + 2;
 Points* points = new Points[nVertices];
 

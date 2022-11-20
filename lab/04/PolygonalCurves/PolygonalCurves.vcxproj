@@ -134,7 +134,7 @@
     <ClInclude Include="ShaderMaker.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CannoneTextureModified.cpp" />
+    <ClCompile Include="Cannone.cpp" />
     <ClCompile Include="ShaderMaker.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

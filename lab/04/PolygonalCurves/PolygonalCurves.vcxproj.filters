@@ -29,7 +29,7 @@
     <ClCompile Include="ShaderMaker.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
-    <ClCompile Include="CannoneTextureModified.cpp">
+    <ClCompile Include="Cannone.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>

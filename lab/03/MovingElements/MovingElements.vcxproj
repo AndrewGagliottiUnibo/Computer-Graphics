@@ -19,10 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="GestioneEventi.cpp" />
     <ClCompile Include="Palla.cpp" />
     <ClCompile Include="ShaderMaker.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GestioneEventi.h" />
     <ClInclude Include="Lib.h" />
     <ClInclude Include="ShaderMaker.h" />
   </ItemGroup>

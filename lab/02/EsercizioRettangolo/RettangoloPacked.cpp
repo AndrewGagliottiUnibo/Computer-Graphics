@@ -18,16 +18,16 @@ unsigned int VBO, EBO;
 */
 float vertices[] = {
 	-0.5f, -0.5f, 0.0f, 1.0f, 0.0f, 0.0f, 1.0f,
-	-0.5f, 0.5f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f,
-	0.5f, 0.5f, 0.0f, 0.5f, 0.0f, 0.0f, 1.0f,
-	0.5f, -0.5f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f };
+	0.0f, -0.3f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f,
+	0.5f, -0.5f, 0.0f, 0.5f, 0.0f, 0.0f, 1.0f,
+	0.0f, 0.5f, 0.0f, 1.0f, 1.0f, 1.0f, 1.0f };
 
 /*
 	Creo un array di indici che rappresentano gli indici dei rettangoli da gestire.
 */
 unsigned int indices[]{
-	0, 1, 2,	// Triangolo I
-	2, 3, 0		// Triangolo II
+	0, 1, 3,	// Triangolo I
+	1, 2, 3		// Triangolo II
 };
 
 void INIT_SHADER(void);
@@ -100,6 +100,6 @@ void drawScene(void)
 		- il tipo.
 		- inizio.
 	*/
-	glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+	glDrawElements(GL_TRIANGLE_STRIP, 6, GL_UNSIGNED_INT, 0);
 	glutSwapBuffers();
 }

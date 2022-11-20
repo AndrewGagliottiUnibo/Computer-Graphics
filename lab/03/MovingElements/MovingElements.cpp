@@ -1,13 +1,11 @@
 #include <iostream>
 #include "ShaderMaker.h"
 #include "lib.h"
-
 #include <GL/glew.h>
 #include <GL/freeglut.h>
 static unsigned int programId;
 
 #define  PI   3.14159265358979323846
-
 
 /*
 	Possiede tutti i campi per identificare una figura:
@@ -164,7 +162,7 @@ void drawScene(void) {
 			Si specifica la modalità di rendering. I triangle_fan solitamente riempono secondo il fragment shader
 			mentre i gl_line non riempono i colori interni ai vertici.
 		*/
-		glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+		glPolygonMode(GL_FRONT_AND_BACK, GL_TRIANGLE_FAN);
 		glDrawArrays(GL_TRIANGLE_FAN, 0, Scena[k].nv);
 	}
 
