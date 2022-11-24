@@ -1,6 +1,7 @@
 # C++ ignore
 # Prerequisites
 *.d
+*.pdf
 
 # Compiled Object files
 *.slo
