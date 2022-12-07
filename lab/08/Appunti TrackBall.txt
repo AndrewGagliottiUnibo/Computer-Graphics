@@ -1,0 +1,16 @@
+Gestire un trackball:
+Immaginiamo una semisfera sul viewport, la posizione del mouse diverrà una posizione su questa semisfera che ha centro nell'origine e raggio 1.
+Tramite ciò, si può capire la direzione della camera che è perpendicolare alle due posizioni che vengono descritte sulla sfera: queste due derivano dalla proiezione della posizione precedente del mouse e dalla posizione attuale della camera.
+Per i calcoli delle direzioni nello spazio e per la rotazione si sfruttano i quaternioni: questi descrivono una rotazione rispetto ad un angolo che poi vengono trasformati in delle matrice per poter essere processate.
+GLM fornisce librerie per dedurre quaternioni da una direzione e poi tradurli appunto in matrici.
+
+I punti si trovano quindi normalizzano la x e la y del mouse, la z invece si calcola sapendo che questa deve soddisfare l'equazione di una circonferenza con centro l'origine e raggio 1.
+
+Quaternioni di rotazione:
+Un quaternione possiede 4 componenti: una parte reale e una parte immaginaria (3 coefficienti immaginari). Si costruisce un dato che corrisponde ad una matrice di rotazione 4X4 (ultima colonna identità) che è facilmente compatibile con le operazioni di pipeline di OpenGL.
+
+
+
+Comandi:
+ctrl + dx click per selezionare un oggetto
+v per sfere di selezione
