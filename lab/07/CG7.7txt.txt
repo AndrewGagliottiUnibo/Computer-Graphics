@@ -1,0 +1,8 @@
+Discutendo a livello generale: fissando una camera sulla scena, si tracciano delle linee dalla camera alla scena e a seconda dei valori del discriminante delle equazioni di secondo grado che si ottengono dalle coordinate della nostra scena.
+-	< 0 intersezione interna
+- 	> 0 no intersezione
+- 	= 0 punto tangente alla scena, va considerato
+
+sostanzialmente controllo se l'intersezione sta o meno all'interno della sfera rappresentante la nostra scena visibile.
+
+A questo punto, ottenuto il volume di vista, si deve passare alle coordinate normalizzate e poi a quelle di viewport: ogni punto con cui si interagisce deve essere sottoposto a tutte le serie di trasformazioni, ma inverse, che sono state compiute nella sua rappresentazione.
